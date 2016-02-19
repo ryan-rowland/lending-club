@@ -1,0 +1,42 @@
+{
+  "name": "lending-club",
+  "version": "0.1.0-dev",
+  "description": "A NodeJS wrapper for the LendingClub API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan-rowland/lending-club.git"
+  },
+  "keywords": [
+    "lending",
+    "club",
+    "lc",
+    "notes",
+    "api",
+    "investment",
+    "p2p",
+    "lending"
+  ],
+  "author": "Ryan Rowland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan-rowland/lending-club/issues"
+  },
+  "homepage": "https://github.com/ryan-rowland/lending-club#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "mozart": "^0.1.0",
+    "path": "^0.12.7",
+    "request-promise": "^2.0.1",
+    "url": "^0.11.0"
+  }
+}
