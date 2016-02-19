@@ -14,9 +14,9 @@ describe('Client', () => {
     });
 
     it('should return a properly formed instance of Client', () => {
-      let client = new Client('foo', 'bar');
+      let client = new Client('foo', 123);
       expect(client).to.be.an.instanceof(Client);
-      expect(client.investorId).to.equal('bar');
+      expect(client.investorId).to.equal(123);
     });
   });
 });
