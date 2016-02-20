@@ -11,17 +11,10 @@
     "url": "git+https://github.com/ryan-rowland/lending-club.git"
   },
   "keywords": [
-    "lending",
-    "club",
-    "lending club",
     "lendingclub",
-    "node",
     "lc",
-    "notes",
     "api",
-    "investment",
-    "p2p",
-    "lending"
+    "promises"
   ],
   "author": "Ryan Rowland",
   "license": "MIT",
@@ -33,7 +26,6 @@
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "gulp-eslint": "^2.0.0",
-    "gulp-jsdoc-to-markdown": "^1.2.1",
     "gulp-mocha": "^2.2.0",
     "gulp-rename": "^1.2.2",
     "mocha": "^2.4.5",
