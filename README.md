@@ -16,18 +16,13 @@ This example code will get the entire batch of new listings and
 purchase a $25.00 note for each loan that matches our filter.
 
 ```javascript
-// Include and initialize the lc-api
 const LC = require('lc-api');
 const lc = new LC(credentials.apiKey, credentials.investorId);
 
-// Get all new loans
 lc.loans.getNewListings().then(newLoans => {
   return newLoans
-    // Apply filters
     .filter(loan => ['A', 'B', 'C'].indexOf(loan.grade) !== -1)
-    // Convert to orders
     .map(loan => loan.createOrder(25.00));
-  // Submit orders
 }).then(orders => lc.account.submitOrders(orders));
 ```
 
