@@ -29,6 +29,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
     "mocha": "^2.4.5",
     "sinon": "^1.17.3"
@@ -36,7 +37,7 @@
   "dependencies": {
     "mozart": "^0.1.0",
     "path": "^0.12.7",
-    "request-promise": "^2.0.1",
+    "request": "^2.69.0",
     "url": "^0.11.0"
   }
 }
