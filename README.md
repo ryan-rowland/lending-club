@@ -1,15 +1,6 @@
-# lc-api
+# lc-api 0.1.0
 A Promise-based Lending Club API for NodeJS
 
-## Disclaimer
-
-This project is currently in development. It's working, but is not yet properly harnessed and documented.
-
-#### TODO before 1.0:
- * Unit test coverage
- * Integration test coverage
- * Full documentation
- 
 ## Example code
 
 This example code will get the entire batch of new listings and
