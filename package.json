@@ -1,8 +1,8 @@
 {
-  "name": "lending-club",
+  "name": "lc-api",
   "version": "0.1.0-dev",
   "description": "A NodeJS wrapper for the LendingClub API",
-  "main": "lib/index.js",
+  "main": "lib/client.js",
   "scripts": {
     "test": "gulp test"
   },
@@ -24,7 +24,7 @@
     "lending"
   ],
   "author": "Ryan Rowland",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ryan-rowland/lending-club/issues"
   },
