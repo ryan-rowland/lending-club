@@ -15,7 +15,7 @@ This project is currently in development. It's working, but is not yet properly 
 This example code will get the entire batch of new listings and
 purchase a $25.00 note for each loan that matches our filter.
 
-```
+```javascript
 // Include and initialize the lc-api
 const LC = require('lc-api');
 const lc = new LC(credentials.apiKey, credentials.investorId);
