@@ -53,7 +53,11 @@ gulp.task('clean', function() {
   }
 });
 
+gulp.task('build', function(done) {
+  return run('lint', 'test', 'compile-readme', 'clean', done);
+});
+
 gulp.task('prepublish', function(done) {
-  return run('validate-version', ['lint', 'test'], 'compile-readme', 'clean', done);
+  return run('validate-version', 'build', done);
 });
 
