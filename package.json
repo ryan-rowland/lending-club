@@ -1,10 +1,11 @@
 {
   "name": "lc-api",
   "version": "0.1.0-dev",
-  "description": "A NodeJS wrapper for the LendingClub API",
+  "description": "A Promise-based NodeJS implementation of the LendingClub API",
   "main": "lib/client.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "prepublish": "gulp prepublish"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,15 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-delete-lines": "0.0.7",
     "gulp-eslint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
     "gulp-rename": "^1.2.2",
+    "jsdox": "^0.4.9",
     "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
+    "run-sequence": "^1.1.5",
     "sinon": "^1.17.3"
   },
   "dependencies": {
