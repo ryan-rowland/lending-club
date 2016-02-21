@@ -1,6 +1,6 @@
 {
   "name": "lc-api",
-  "version": "0.1.0-dev",
+  "version": "0.1.0",
   "description": "A Promise-based NodeJS implementation of the LendingClub API",
   "main": "lib/client.js",
   "scripts": {
