@@ -59,8 +59,8 @@ https://www.lendingclub.com/developers/listed-loans.action
 ### LoansResource.getNewListings() 
 
 Get a list of loans open for funding that were added
-
 in the last batch of listed loans.
+
 https://www.lendingclub.com/developers/listed-loans.action
 
 **Returns**: `Promise.<Array.<Loan>>`, loans
