@@ -9,6 +9,7 @@ const jsdox = require('jsdox');
 //const istanbul = require('gulp-istanbul');
 const mocha = require('gulp-mocha');
 const rename = require('gulp-rename');
+const replace = require('gulp-replace');
 const rimraf = require('rimraf');
 const run = require('run-sequence');
 
@@ -34,6 +35,9 @@ gulp.task('compile-readme', ['jsdox'], function() {
   return gulp.src(['./docs/README.md', './docs/temp/loans.md', './docs/temp/accounts.md'])
     .pipe(concat('README.md'))
     .pipe(deleteLines({ filters: [/# Global/g] }))
+    .pipe(replace('.#', '.'))
+    .pipe(replace('&lt;', '<'))
+    .pipe(replace('&gt;', '>'))
     .pipe(gulp.dest('./'));
 });
 
