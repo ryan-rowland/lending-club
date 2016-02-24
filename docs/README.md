@@ -1,4 +1,4 @@
-# lc-api 0.1.0
+# lc-api 0.1.3
 A Promise-based Lending Club API for NodeJS
 
 ## Example code
